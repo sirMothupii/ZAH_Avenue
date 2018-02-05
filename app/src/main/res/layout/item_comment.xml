@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sirmothupii.zah_avenue.item_comment">
+
+    <ImageView
+        android:id="@+id/imgCommentProfile"
+        android:layout_width="67dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvComment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        tools:ignore="MissingConstraints" android:contentDescription="@string/imgCommentProfile" />
+
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="249dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgCommentProfile"
+        android:layout_toRightOf="@+id/imgCommentProfile"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:text="@string/comment_1_default_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
+        tools:ignore="MissingConstraints,RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvCommentTime"
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/tvComment"
+        android:layout_toEndOf="@+id/imgCommentProfile"
+        android:layout_toRightOf="@+id/imgCommentProfile"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:text="@string/comment_1_default_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965"
+        tools:ignore="MissingConstraints,RtlHardcoded,RtlSymmetry" />
+
+
+
+</android.support.constraint.ConstraintLayout>

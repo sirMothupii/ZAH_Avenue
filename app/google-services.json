@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1001584886026",
+    "firebase_url": "https://zahavenue.firebaseio.com",
+    "project_id": "zahavenue",
+    "storage_bucket": "zahavenue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001584886026:android:231ffe7b6d1b77b8",
+        "android_client_info": {
+          "package_name": "com.sirmothupii.zah_avenue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001584886026-7nt9gcd501ud359al3sopdkdit3cnk8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sirmothupii.zah_avenue",
+            "certificate_hash": "c1436653df857e7f3ea0c41b7ab12324d6390b0c"
+          }
+        },
+        {
+          "client_id": "1001584886026-a1f3rnaa9fr9d2g6t3qrr1ukcls58m29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_k36-_DPuBaf4v1hOHSGkyl31e0wQpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001584886026-a1f3rnaa9fr9d2g6t3qrr1ukcls58m29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<!--suppress ALL -->
+
+<resources>
+    <string name="app_name">ZAH_Avenue</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="caption_default_text" />
+    <string name="time_default_text" />
+    <string name="username_default_text" />
+    <string name="like_default_text" />
+    <string name="comment_1_default_text" />
+    <string name="comment_2_default_text" />
+    <string name="view_all_comments_default_text" />
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_a_member_click_here_to_register">Not A Member? Click Here To Register...</string>
+    <string name="powered_by_greyy_technologies_inc">Powered By Greyy Technologies Inc.</string>
+    <string name="todo">TODO</string>
+    <string name="imgPhoto">Photo</string>
+    <string name="imgProfile">TODO</string>
+    <string name="imgCommentProfile">imgCommentProfile</string>
+</resources>
